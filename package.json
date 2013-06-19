@@ -1,0 +1,25 @@
+{
+  "name": "esc",
+  "version": "0.0.0",
+  "description": "Entity Component System engine",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~1.11.0",
+    "sinon": "~1.7.2"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikefrey/esc.git"
+  },
+  "author": "Mike Frey",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "36d44825c383b15ebc74eec0dde86604bfc729da"
+}
