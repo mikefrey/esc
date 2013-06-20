@@ -14,7 +14,7 @@ describe('Engine', function() {
 
   })
 
-  describe('Engine instance addEntity', function() {
+  describe('Engine :: addEntity', function() {
 
     var engine
 
@@ -32,7 +32,7 @@ describe('Engine', function() {
 
   })
 
-  describe('Engine instance removeEntity', function() {
+  describe('Engine :: removeEntity', function() {
 
     var engine
     var ent
@@ -57,7 +57,7 @@ describe('Engine', function() {
 
   })
 
-  describe('Engine instance addSystem', function() {
+  describe('Engine :: addSystem', function() {
 
     var engine
 
@@ -90,7 +90,7 @@ describe('Engine', function() {
 
   })
 
-  describe('Engine instance removeSystem', function() {
+  describe('Engine :: removeSystem', function() {
 
     var engine
     var sys
@@ -115,7 +115,7 @@ describe('Engine', function() {
 
   })
 
-  describe('Engine instance update', function() {
+  describe('Engine :: update', function() {
 
     var engine
     var sys
